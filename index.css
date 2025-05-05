@@ -65,12 +65,18 @@
   .coin-img-btn-wrapper {
     border: none;
     background: transparent;
+    padding: 1.5rem 0;
+  }
+
+  .coin-shadow-img {
+    padding: 1.5rem 0;
   }
 
   .coin-side-text {
     font-weight: 600;
     font-size: 1.5rem;
     text-transform: capitalize;
+    padding: 1.5rem 0;
   }
 
   .flip-coin-btn {
