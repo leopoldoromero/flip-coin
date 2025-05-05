@@ -1,0 +1,90 @@
+:root {
+    /* Colors */
+    --heading-text-border-color: #35383F;
+    --btn-color: #1F6FB0;
+    --font-color: #ECEDF0;
+    --background-color: #404A65;
+    --base-font: 'Kanit', sans-serif;
+    --p-1p5: 1.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--base-font);
+    color: var(--font-color);
+    background-color: var(--background-color);
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+
+  /* Spacing */
+
+  .p-bottom-1p5 {
+    padding-bottom: 1.5rem;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-text {
+    font-weight: 600;
+    font-size: 4rem;
+    -webkit-text-stroke: 4px var(--heading-text-border-color);
+    text-align: center;
+  }
+
+  .subheading-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .coin-img-btn-wrapper {
+    border: none;
+    background: transparent;
+  }
+
+  .coin-side-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+
+  .flip-coin-btn {
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: var(--btn-color);
+    color: inherit;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
